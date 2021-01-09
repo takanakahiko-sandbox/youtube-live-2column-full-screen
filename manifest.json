@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "TODO",
+  "description": "TODO",
+  "version": "1.0",
+  "content_scripts": [{
+      "run_at": "document_end",
+      "matches": [
+          "https://www.youtube.com/watch?v=WBfbkPTqUtU"
+      ],
+      "js": ["index.js"]
+  }],
+  "permissions": [
+      "activeTab"
+  ]
+}
